@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:06:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-04 18:44:24
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\checkout\_partials\customer-form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:184465ad25f56c14032-34672762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:178105b158888da70d4-26462233%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '184465ad25f56c14032-34672762',
+  'nocache_hash' => '178105b158888da70d4-26462233',
   'function' => 
   array (
   ),
@@ -37,15 +37,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad25f56d42428_15959942',
+  'unifunc' => 'content_5b15888918cb60_38142599',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad25f56d42428_15959942')) {function content_5ad25f56d42428_15959942($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b15888918cb60_38142599')) {function content_5b15888918cb60_38142599($_smarty_tpl) {?>
 
   
     <?php /*  Call merged included template "_partials/form-errors.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('_partials/form-errors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('errors'=>$_smarty_tpl->tpl_vars['errors']->value['']), 0, '184465ad25f56c14032-34672762');
-content_5ad25f56c98292_22803953($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('_partials/form-errors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('errors'=>$_smarty_tpl->tpl_vars['errors']->value['']), 0, '178105b158888da70d4-26462233');
+content_5b158888f06bb1_38842115($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "_partials/form-errors.tpl" */?>
   
@@ -107,9 +107,9 @@ $_smarty_tpl->tpl_vars["field"]->_loop = true;
 </form>
 
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:06:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-04 18:44:24
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\_partials\form-errors.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25f56c98292_22803953')) {function content_5ad25f56c98292_22803953($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b158888f06bb1_38842115')) {function content_5b158888f06bb1_38842115($_smarty_tpl) {?>
 <?php if (count($_smarty_tpl->tpl_vars['errors']->value)) {?>
   <div class="help-block">
     

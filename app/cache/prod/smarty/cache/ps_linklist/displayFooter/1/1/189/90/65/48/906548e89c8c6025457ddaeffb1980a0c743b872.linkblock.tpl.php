@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:188095ad25a593831b6-72058340%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:220015afd789e106a36-18018123%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,17 +9,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '188095ad25a593831b6-72058340',
+  'nocache_hash' => '220015afd789e106a36-18018123',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad262096b9637_23276579',
+  'unifunc' => 'content_5b158827328870_66460497',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad262096b9637_23276579')) {function content_5ad262096b9637_23276579($_smarty_tpl) {?><div class="col-md-4 links">
+<?php if ($_valid && !is_callable('content_5b158827328870_66460497')) {function content_5b158827328870_66460497($_smarty_tpl) {?><div class="col-md-4 links">
   <div class="row">
       <div class="col-md-6 wrapper">
       <h3 class="h3 hidden-sm-down">Produits</h3>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_45154" data-toggle="collapse">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_79929" data-toggle="collapse">
         <span class="h3">Produits</span>
         <span class="float-xs-right">
           <span class="navbar-toggler collapse-icons">
@@ -28,7 +28,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </span>
         </span>
       </div>
-      <ul id="footer_sub_menu_45154" class="collapse">
+      <ul id="footer_sub_menu_79929" class="collapse">
                   <li>
             <a
                 id="link-product-page-prices-drop-1"
@@ -63,7 +63,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
       <div class="col-md-6 wrapper">
       <h3 class="h3 hidden-sm-down">Notre société</h3>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_24028" data-toggle="collapse">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_86935" data-toggle="collapse">
         <span class="h3">Notre société</span>
         <span class="float-xs-right">
           <span class="navbar-toggler collapse-icons">
@@ -72,7 +72,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </span>
         </span>
       </div>
-      <ul id="footer_sub_menu_24028" class="collapse">
+      <ul id="footer_sub_menu_86935" class="collapse">
                   <li>
             <a
                 id="link-cms-page-1-2"
@@ -115,16 +115,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </li>
                   <li>
             <a
-                id="link-cms-page-5-2"
-                class="cms-page-link"
-                href="http://localhost/malaik/content/5-paiement-securise"
-                title="Notre méthode de paiement sécurisé"
-                            >
-              Paiement sécurisé
-            </a>
-          </li>
-                  <li>
-            <a
                 id="link-static-page-contact-2"
                 class="cms-page-link"
                 href="http://localhost/malaik/nous-contacter"
@@ -135,22 +125,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           </li>
                   <li>
             <a
-                id="link-static-page-sitemap-2"
+                id="link-static-page-my-account-2"
                 class="cms-page-link"
-                href="http://localhost/malaik/Sitemap"
-                title="Vous êtes perdu ? Trouvez ce que vous cherchez"
-                            >
-              sitemap
-            </a>
-          </li>
-                  <li>
-            <a
-                id="link-static-page-stores-2"
-                class="cms-page-link"
-                href="http://localhost/malaik/magasins"
+                href="http://localhost/malaik/mon-compte"
                 title=""
                             >
-              Magasins
+              Mon compte
             </a>
           </li>
               </ul>

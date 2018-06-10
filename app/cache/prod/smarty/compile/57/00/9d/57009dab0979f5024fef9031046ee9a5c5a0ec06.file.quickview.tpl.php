@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:04:50
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-10 15:38:11
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\catalog\_partials\quickview.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:35815ad25ee246d967-59886596%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:228915b1d45e31a8af9-66630370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '35815ad25ee246d967-59886596',
+  'nocache_hash' => '228915b1d45e31a8af9-66630370',
   'function' => 
   array (
   ),
@@ -47,9 +47,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad25ee2917ce7_70377988',
+  'unifunc' => 'content_5b1d45e39c9354_27417176',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad25ee2917ce7_70377988')) {function content_5ad25ee2917ce7_70377988($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b1d45e39c9354_27417176')) {function content_5b1d45e39c9354_27417176($_smarty_tpl) {?>
 <div id="quickview-modal-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id'], ENT_QUOTES, 'UTF-8');?>
 -<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id_product_attribute'], ENT_QUOTES, 'UTF-8');?>
 " class="modal fade quickview" tabindex="-1" role="dialog" aria-hidden="true">
@@ -66,8 +66,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           
             <?php /*  Call merged included template "catalog/_partials/product-cover-thumbnails.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-cover-thumbnails.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '35815ad25ee246d967-59886596');
-content_5ad25ee2516475_14495465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-cover-thumbnails.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '228915b1d45e31a8af9-66630370');
+content_5b1d45e3284300_77032364($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/product-cover-thumbnails.tpl" */?>
           
@@ -82,8 +82,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
           
             <?php /*  Call merged included template "catalog/_partials/product-prices.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-prices.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '35815ad25ee246d967-59886596');
-content_5ad25ee25dd310_08853105($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-prices.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '228915b1d45e31a8af9-66630370');
+content_5b1d45e3392f95_63470781($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/product-prices.tpl" */?>
           
@@ -104,8 +104,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
                 
                   <?php /*  Call merged included template "catalog/_partials/product-variants.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-variants.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '35815ad25ee246d967-59886596');
-content_5ad25ee279e320_08477541($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-variants.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '228915b1d45e31a8af9-66630370');
+content_5b1d45e3696ba5_93486677($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/product-variants.tpl" */?>
                 
@@ -113,8 +113,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
                 
                   <?php /*  Call merged included template "catalog/_partials/product-add-to-cart.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-add-to-cart.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '35815ad25ee246d967-59886596');
-content_5ad25ee287a342_94827806($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/product-add-to-cart.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '228915b1d45e31a8af9-66630370');
+content_5b1d45e391e744_25685757($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/product-add-to-cart.tpl" */?>
                 
@@ -137,9 +137,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
  </div>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:04:50
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-10 15:38:11
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\catalog\_partials\product-cover-thumbnails.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ee2516475_14495465')) {function content_5ad25ee2516475_14495465($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b1d45e3284300_77032364')) {function content_5b1d45e3284300_77032364($_smarty_tpl) {?>
 <div class="images-container">
   
     <div class="product-cover">
@@ -186,9 +186,9 @@ $_smarty_tpl->tpl_vars['image']->_loop = true;
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayAfterProductThumbs'),$_smarty_tpl);?>
 
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:04:50
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-10 15:38:11
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\catalog\_partials\product-prices.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ee25dd310_08853105')) {function content_5ad25ee25dd310_08853105($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b1d45e3392f95_63470781')) {function content_5b1d45e3392f95_63470781($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['product']->value['show_price']) {?>
   <div class="product-prices">
     
@@ -296,9 +296,9 @@ $_smarty_tpl->tpl_vars['image']->_loop = true;
   </div>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:04:50
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-10 15:38:11
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\catalog\_partials\product-variants.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ee279e320_08477541')) {function content_5ad25ee279e320_08477541($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b1d45e3696ba5_93486677')) {function content_5b1d45e3696ba5_93486677($_smarty_tpl) {?>
 <div class="product-variants">
   <?php  $_smarty_tpl->tpl_vars['group'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group']->_loop = false;
  $_smarty_tpl->tpl_vars['id_attribute_group'] = new Smarty_Variable;
@@ -386,9 +386,9 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
   <?php } ?>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:04:50
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-10 15:38:11
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\catalog\_partials\product-add-to-cart.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ee287a342_94827806')) {function content_5ad25ee287a342_94827806($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b1d45e391e744_25685757')) {function content_5b1d45e391e744_25685757($_smarty_tpl) {?>
 <div class="product-add-to-cart">
   <?php if (!$_smarty_tpl->tpl_vars['configuration']->value['is_catalog']) {?>
     <span class="control-label"><?php echo smartyTranslate(array('s'=>'Quantity','d'=>'Shop.Theme.Catalog'),$_smarty_tpl);?>

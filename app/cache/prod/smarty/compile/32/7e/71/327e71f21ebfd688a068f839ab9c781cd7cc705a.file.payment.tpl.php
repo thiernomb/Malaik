@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:09:30
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-28 10:12:01
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\checkout\_partials\steps\payment.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:269035ad25ffa4fe1a5-32796671%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:199235b0bd5f1b11104-19725647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '269035ad25ffa4fe1a5-32796671',
+  'nocache_hash' => '199235b0bd5f1b11104-19725647',
   'function' => 
   array (
   ),
@@ -50,9 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad25ffb076919_88883631',
+  'unifunc' => 'content_5b0bd5f22b7e36_93060907',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad25ffb076919_88883631')) {function content_5ad25ffb076919_88883631($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b0bd5f22b7e36_93060907')) {function content_5b0bd5f22b7e36_93060907($_smarty_tpl) {?>
 
   <section  id    = "<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['identifier']->value, ENT_QUOTES, 'UTF-8');?>
 "
@@ -228,8 +228,8 @@ $_smarty_tpl->tpl_vars["condition"]->_loop = true;
   <?php if ($_smarty_tpl->tpl_vars['show_final_summary']->value) {?>
     <?php /*  Call merged included template "checkout/_partials/order-final-summary.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '269035ad25ffa4fe1a5-32796671');
-content_5ad25ffa9dde37_92998404($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '199235b0bd5f1b11104-19725647');
+content_5b0bd5f1eace14_75637326($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "checkout/_partials/order-final-summary.tpl" */?>
   <?php }?>
@@ -275,9 +275,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
   </section>
 
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:09:30
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-28 10:12:01
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\checkout\_partials\order-final-summary.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ffa9dde37_92998404')) {function content_5ad25ffa9dde37_92998404($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b0bd5f1eace14_75637326')) {function content_5b0bd5f1eace14_75637326($_smarty_tpl) {?>
 <section id="order-summary-content" class="page-content page-order-confirmation">
   <div class="row">
     <div class="col-md-12">
@@ -362,17 +362,17 @@ $_smarty_tpl = array_pop($_tpl_stack);
     
       <?php /*  Call merged included template "checkout/_partials/order-final-summary-table.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary-table.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('products'=>$_smarty_tpl->tpl_vars['cart']->value['products'],'products_count'=>$_smarty_tpl->tpl_vars['cart']->value['products_count'],'subtotals'=>$_smarty_tpl->tpl_vars['cart']->value['subtotals'],'totals'=>$_smarty_tpl->tpl_vars['cart']->value['totals'],'labels'=>$_smarty_tpl->tpl_vars['cart']->value['labels'],'add_product_link'=>true), 0, '269035ad25ffa4fe1a5-32796671');
-content_5ad25ffac9f909_79115107($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('checkout/_partials/order-final-summary-table.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('products'=>$_smarty_tpl->tpl_vars['cart']->value['products'],'products_count'=>$_smarty_tpl->tpl_vars['cart']->value['products_count'],'subtotals'=>$_smarty_tpl->tpl_vars['cart']->value['subtotals'],'totals'=>$_smarty_tpl->tpl_vars['cart']->value['totals'],'labels'=>$_smarty_tpl->tpl_vars['cart']->value['labels'],'add_product_link'=>true), 0, '199235b0bd5f1b11104-19725647');
+content_5b0bd5f2072060_36456223($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "checkout/_partials/order-final-summary-table.tpl" */?>
     
   </div>
 </section>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 22:09:30
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-28 10:12:02
          compiled from "C:\wamp64\www\malaik\themes\classic\templates\checkout\_partials\order-final-summary-table.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5ad25ffac9f909_79115107')) {function content_5ad25ffac9f909_79115107($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b0bd5f2072060_36456223')) {function content_5b0bd5f2072060_36456223($_smarty_tpl) {?>
 <div id="order-items" class="col-md-12">
 
   

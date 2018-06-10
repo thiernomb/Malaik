@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-14 21:46:34
+<?php /* Smarty version Smarty-3.1.19, created on 2018-05-28 09:04:53
          compiled from "C:\wamp64\www\malaik\modules\psaddonsconnect\views\templates\hook\dashboard_zone_one.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:316685ad25a9a50fa30-73471669%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:156855b0bc635116a48-99853999%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '316685ad25a9a50fa30-73471669',
+  'nocache_hash' => '156855b0bc635116a48-99853999',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ad25a9a5f1ac7_11830709',
+  'unifunc' => 'content_5b0bc637104c54_77640666',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ad25a9a5f1ac7_11830709')) {function content_5ad25a9a5f1ac7_11830709($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b0bc637104c54_77640666')) {function content_5b0bc637104c54_77640666($_smarty_tpl) {?>
 
 <section id="psaddonsconnect" class="panel widget">
 	<div class="panel-heading">
